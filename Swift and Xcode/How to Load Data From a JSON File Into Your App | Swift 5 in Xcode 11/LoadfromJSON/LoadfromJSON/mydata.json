@@ -1,0 +1,38 @@
+
+[
+    {
+        "customer_id" : 1,
+        "customer_name" : "Joe",
+        "customer_type" : "agriculture",
+        "age" : 46,
+        "units_sold" : 2
+    },
+    {
+        "customer_id" : 2,
+        "customer_name" : "Sam",
+        "customer_type" : "industry",
+        "age" : 56,
+        "units_sold" : 2
+    },
+    {
+        "customer_id" : 3,
+        "customer_name" : "Jill",
+        "customer_type" : "healthcare",
+        "age" : 32,
+        "units_sold" : 2
+    },
+    {
+        "customer_id" : 4,
+        "customer_name" : "William",
+        "customer_type" : "education",
+        "age" : 18,
+        "units_sold" : 2
+    },
+    {
+        "customer_id" : 5,
+        "customer_name" : "Ajay",
+        "customer_type" : "technology",
+        "age" : 88,
+        "units_sold" : 2
+    }
+]

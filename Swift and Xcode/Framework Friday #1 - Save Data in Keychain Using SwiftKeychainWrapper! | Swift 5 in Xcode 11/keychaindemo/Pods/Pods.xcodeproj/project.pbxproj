@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1E9D786CA1040C50244F3427482C2C /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F956CC19960F45AA2727F6A488970B2 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB72D35C1614D5955F927774DCC7C44 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DADBACD97D0C72778F39C4FB1ED34C /* SwiftKeychainWrapper-dummy.m */; };
+		33202E3E107F34F9B00BAADF621CA8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		35C7EB60E66E2814886504B822190484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A246CB408E326D4798A114169A4D9E3 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A8465EDF7D2D92F0F56C96C7A63A6 /* KeychainWrapper.swift */; };
+		3BCCD9269C880096FE41CC8BE90C7933 /* Pods-keychaindemo-keychaindemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA24E0277638556D2FCAC08981D24175 /* Pods-keychaindemo-keychaindemoUITests-dummy.m */; };
+		514B38C867243196037BA48BD7055B30 /* Pods-keychaindemo-keychaindemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDD45A2FA88BB6214B6D8E75062F914 /* Pods-keychaindemo-keychaindemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		563AE8ABE43A33080B316A26848BE213 /* Pods-keychaindemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA64ED353D810BE825009DD5B2229DC1 /* Pods-keychaindemo-dummy.m */; };
+		7A28A439506358832B5EFCF01AED6941 /* Pods-keychaindemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DC3AE8050119F5154F594AE87C6A6 /* Pods-keychaindemoTests-dummy.m */; };
+		7BDEA58982AE38EC64F549D981FD45E6 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E241273BAE3E42DBA5CE96CA53E41F1B /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853500B973255E0957451456FAAD6E31 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FC32410D15B8DDD1C19F0D6707302 /* KeychainItemAccessibility.swift */; };
+		8B5B126E4828A2EB2360B4E4746933B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		97BD0BB84E073D30D671AE3EA0104E5B /* Pods-keychaindemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD95B7B9C8DC8CB842ACB1406F0B2B10 /* Pods-keychaindemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0ADC0A11B32BAE43D8C47F22EBD6E9D /* Pods-keychaindemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A96C76D40726870BE30E9BC4F2266C /* Pods-keychaindemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E033B14D90382F57F6363AE0FD08B245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C8CD7AC646C9C498D13D80E108D4402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		3CDBE399631E1D59EFDEBC52B496519C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F026CAD1AB149263DD8ACE7649B3BA0B;
+			remoteInfo = "Pods-keychaindemo";
+		};
+		EC1CB13583F3A24612C604E0A87B0CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E91862D7435E57DC09C9C7691A1503 /* Pods-keychaindemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1227EFDC0C61A8BF835978AA17EC5849 /* Pods-keychaindemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-keychaindemo-frameworks.sh"; sourceTree = "<group>"; };
+		13AB4509575E95A58CE8C5F54AE2CAB7 /* Pods-keychaindemo-keychaindemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keychaindemo-keychaindemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F956CC19960F45AA2727F6A488970B2 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		2C0DB7DC87438CAB2B2F3ABA07656FE7 /* Pods-keychaindemo-keychaindemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keychaindemo-keychaindemoUITests.modulemap"; sourceTree = "<group>"; };
+		2C51AD358677E7D92EB5A944928A5ED9 /* Pods-keychaindemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keychaindemoTests.modulemap"; sourceTree = "<group>"; };
+		2C7A9E844EED996D6EA2C5F154FDE1EC /* Pods-keychaindemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemo-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35FE7B4F62C22497DE25B46711451C22 /* Pods-keychaindemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemo.release.xcconfig"; sourceTree = "<group>"; };
+		3878155DF406854FDB8BF3DAE4D2211D /* Pods-keychaindemo-keychaindemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-keychaindemo-keychaindemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		39694D1A53DADFE6C52347C54C579C61 /* Pods-keychaindemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3ADB16F227146FC4C3762EEAAA13A74F /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		3BA5966D247200ED0DE4F0587068C6E6 /* Pods-keychaindemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemoTests-Info.plist"; sourceTree = "<group>"; };
+		437463127BE5D5082E072EDB76D2E06B /* Pods-keychaindemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keychaindemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		450D407495D4B279AB4054C48BB2DA08 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		4C93CA3E29F711A6DBEF3C03849C05E0 /* Pods-keychaindemo-keychaindemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemo-keychaindemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftKeychainWrapper.framework; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582439EC17094CE981451C896AA67368 /* Pods_keychaindemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_keychaindemo.framework; path = "Pods-keychaindemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D400AC50123106209F4DABBB94FCA17 /* Pods-keychaindemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-keychaindemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F1775A2E2A8881FF350A367038544D /* Pods-keychaindemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CDD45A2FA88BB6214B6D8E75062F914 /* Pods-keychaindemo-keychaindemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keychaindemo-keychaindemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		7D5E545B795DFCE3D82CC9120F482620 /* SwiftKeychainWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftKeychainWrapper-Info.plist"; sourceTree = "<group>"; };
+		9620CC7CF11B601FA233DD093B35AE5C /* Pods-keychaindemo-keychaindemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemo-keychaindemoUITests-Info.plist"; sourceTree = "<group>"; };
+		995A8465EDF7D2D92F0F56C96C7A63A6 /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		9B2CD6D5094FCC943A205F8BB26DE0EF /* Pods_keychaindemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_keychaindemoTests.framework; path = "Pods-keychaindemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA64ED353D810BE825009DD5B2229DC1 /* Pods-keychaindemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keychaindemo-dummy.m"; sourceTree = "<group>"; };
+		B3B6E025C7C23538590329F3E8E8A177 /* Pods-keychaindemo-keychaindemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemo-keychaindemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B50DC3AE8050119F5154F594AE87C6A6 /* Pods-keychaindemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keychaindemoTests-dummy.m"; sourceTree = "<group>"; };
+		B5EFA6897AACD8F94B2F215B7C84DC80 /* Pods-keychaindemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-keychaindemo.modulemap"; sourceTree = "<group>"; };
+		BA24E0277638556D2FCAC08981D24175 /* Pods-keychaindemo-keychaindemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-keychaindemo-keychaindemoUITests-dummy.m"; sourceTree = "<group>"; };
+		C5A96C76D40726870BE30E9BC4F2266C /* Pods-keychaindemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keychaindemoTests-umbrella.h"; sourceTree = "<group>"; };
+		D71DF93734656ABDC42DE263200C7E11 /* Pods_keychaindemo_keychaindemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_keychaindemo_keychaindemoUITests.framework; path = "Pods-keychaindemo-keychaindemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D772B308AD290A0AA1FF20E48114CE12 /* Pods-keychaindemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8FC32410D15B8DDD1C19F0D6707302 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		DD47908E8393ACC68C10483D7143C15C /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
+		E241273BAE3E42DBA5CE96CA53E41F1B /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		E7DADBACD97D0C72778F39C4FB1ED34C /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		EBBB54325E7A54612E5AFD190BC3D936 /* Pods-keychaindemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-keychaindemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B2A1F299D148B3B01043D927D93AEC /* Pods-keychaindemo-keychaindemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-keychaindemo-keychaindemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD95B7B9C8DC8CB842ACB1406F0B2B10 /* Pods-keychaindemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-keychaindemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494AD00D44596C75505E61358291393E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5B126E4828A2EB2360B4E4746933B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF190C4AB37E1C0E4C902E3BB62CF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33202E3E107F34F9B00BAADF621CA8A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9067F86725296508BE7081DD7E52F4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E033B14D90382F57F6363AE0FD08B245 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44BE32F0F2A099860CD3EA3E14F13E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C7EB60E66E2814886504B822190484 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0939D668156DEA1FD8AB091B78ACF84B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B360CFA9AD5C1EC96D054A4EF9633351 /* Pods-keychaindemo */,
+				600EA0A43EA38F8D6E13C606AA6EB8A7 /* Pods-keychaindemo-keychaindemoUITests */,
+				7F3C1A1E6306B222A82E718CC5FBCA7A /* Pods-keychaindemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40792F9B25D0E190F4DD68BF40333F52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADB16F227146FC4C3762EEAAA13A74F /* SwiftKeychainWrapper.modulemap */,
+				DD47908E8393ACC68C10483D7143C15C /* SwiftKeychainWrapper.xcconfig */,
+				E7DADBACD97D0C72778F39C4FB1ED34C /* SwiftKeychainWrapper-dummy.m */,
+				7D5E545B795DFCE3D82CC9120F482620 /* SwiftKeychainWrapper-Info.plist */,
+				450D407495D4B279AB4054C48BB2DA08 /* SwiftKeychainWrapper-prefix.pch */,
+				1F956CC19960F45AA2727F6A488970B2 /* SwiftKeychainWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper";
+			sourceTree = "<group>";
+		};
+		600EA0A43EA38F8D6E13C606AA6EB8A7 /* Pods-keychaindemo-keychaindemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C0DB7DC87438CAB2B2F3ABA07656FE7 /* Pods-keychaindemo-keychaindemoUITests.modulemap */,
+				13AB4509575E95A58CE8C5F54AE2CAB7 /* Pods-keychaindemo-keychaindemoUITests-acknowledgements.markdown */,
+				F8B2A1F299D148B3B01043D927D93AEC /* Pods-keychaindemo-keychaindemoUITests-acknowledgements.plist */,
+				BA24E0277638556D2FCAC08981D24175 /* Pods-keychaindemo-keychaindemoUITests-dummy.m */,
+				3878155DF406854FDB8BF3DAE4D2211D /* Pods-keychaindemo-keychaindemoUITests-frameworks.sh */,
+				9620CC7CF11B601FA233DD093B35AE5C /* Pods-keychaindemo-keychaindemoUITests-Info.plist */,
+				7CDD45A2FA88BB6214B6D8E75062F914 /* Pods-keychaindemo-keychaindemoUITests-umbrella.h */,
+				B3B6E025C7C23538590329F3E8E8A177 /* Pods-keychaindemo-keychaindemoUITests.debug.xcconfig */,
+				4C93CA3E29F711A6DBEF3C03849C05E0 /* Pods-keychaindemo-keychaindemoUITests.release.xcconfig */,
+			);
+			name = "Pods-keychaindemo-keychaindemoUITests";
+			path = "Target Support Files/Pods-keychaindemo-keychaindemoUITests";
+			sourceTree = "<group>";
+		};
+		7F3C1A1E6306B222A82E718CC5FBCA7A /* Pods-keychaindemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C51AD358677E7D92EB5A944928A5ED9 /* Pods-keychaindemoTests.modulemap */,
+				5D400AC50123106209F4DABBB94FCA17 /* Pods-keychaindemoTests-acknowledgements.markdown */,
+				08E91862D7435E57DC09C9C7691A1503 /* Pods-keychaindemoTests-acknowledgements.plist */,
+				B50DC3AE8050119F5154F594AE87C6A6 /* Pods-keychaindemoTests-dummy.m */,
+				3BA5966D247200ED0DE4F0587068C6E6 /* Pods-keychaindemoTests-Info.plist */,
+				C5A96C76D40726870BE30E9BC4F2266C /* Pods-keychaindemoTests-umbrella.h */,
+				D772B308AD290A0AA1FF20E48114CE12 /* Pods-keychaindemoTests.debug.xcconfig */,
+				39694D1A53DADFE6C52347C54C579C61 /* Pods-keychaindemoTests.release.xcconfig */,
+			);
+			name = "Pods-keychaindemoTests";
+			path = "Target Support Files/Pods-keychaindemoTests";
+			sourceTree = "<group>";
+		};
+		8E7C18A276CC1B95B5DDB903FC2B8FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8E157353417A2FDE103EADD8D1B8C29 /* SwiftKeychainWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0873F874693E7E539123660C67ADDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582439EC17094CE981451C896AA67368 /* Pods_keychaindemo.framework */,
+				D71DF93734656ABDC42DE263200C7E11 /* Pods_keychaindemo_keychaindemoUITests.framework */,
+				9B2CD6D5094FCC943A205F8BB26DE0EF /* Pods_keychaindemoTests.framework */,
+				5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8E157353417A2FDE103EADD8D1B8C29 /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DA8FC32410D15B8DDD1C19F0D6707302 /* KeychainItemAccessibility.swift */,
+				995A8465EDF7D2D92F0F56C96C7A63A6 /* KeychainWrapper.swift */,
+				E241273BAE3E42DBA5CE96CA53E41F1B /* SwiftKeychainWrapper.h */,
+				40792F9B25D0E190F4DD68BF40333F52 /* Support Files */,
+			);
+			name = SwiftKeychainWrapper;
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		B360CFA9AD5C1EC96D054A4EF9633351 /* Pods-keychaindemo */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFA6897AACD8F94B2F215B7C84DC80 /* Pods-keychaindemo.modulemap */,
+				437463127BE5D5082E072EDB76D2E06B /* Pods-keychaindemo-acknowledgements.markdown */,
+				68F1775A2E2A8881FF350A367038544D /* Pods-keychaindemo-acknowledgements.plist */,
+				AA64ED353D810BE825009DD5B2229DC1 /* Pods-keychaindemo-dummy.m */,
+				1227EFDC0C61A8BF835978AA17EC5849 /* Pods-keychaindemo-frameworks.sh */,
+				2C7A9E844EED996D6EA2C5F154FDE1EC /* Pods-keychaindemo-Info.plist */,
+				FD95B7B9C8DC8CB842ACB1406F0B2B10 /* Pods-keychaindemo-umbrella.h */,
+				EBBB54325E7A54612E5AFD190BC3D936 /* Pods-keychaindemo.debug.xcconfig */,
+				35FE7B4F62C22497DE25B46711451C22 /* Pods-keychaindemo.release.xcconfig */,
+			);
+			name = "Pods-keychaindemo";
+			path = "Target Support Files/Pods-keychaindemo";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E7C18A276CC1B95B5DDB903FC2B8FAD /* Pods */,
+				A0873F874693E7E539123660C67ADDF2 /* Products */,
+				0939D668156DEA1FD8AB091B78ACF84B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07070E1314D6B4D708F55C48F573EF21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ADC0A11B32BAE43D8C47F22EBD6E9D /* Pods-keychaindemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADD2A2BA81E66DF55015C82EE5369EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514B38C867243196037BA48BD7055B30 /* Pods-keychaindemo-keychaindemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46D83F0CD00CB6C581A15FACBBDB57E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1E9D786CA1040C50244F3427482C2C /* SwiftKeychainWrapper-umbrella.h in Headers */,
+				7BDEA58982AE38EC64F549D981FD45E6 /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C8019679CC50DCEAE1FA58C119B670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BD0BB84E073D30D671AE3EA0104E5B /* Pods-keychaindemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9D4ECACE9CC152BBDAA6F353A8EA1B00 /* Pods-keychaindemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070CAD4C999C37660B01C2F28DAB3B89 /* Build configuration list for PBXNativeTarget "Pods-keychaindemoTests" */;
+			buildPhases = (
+				07070E1314D6B4D708F55C48F573EF21 /* Headers */,
+				B9A017EE6610499171740703C6F341F6 /* Sources */,
+				494AD00D44596C75505E61358291393E /* Frameworks */,
+				9026808DF928F341892BD1B788E58DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2B7C6436BF11240F286D50DE387FC9 /* PBXTargetDependency */,
+			);
+			name = "Pods-keychaindemoTests";
+			productName = "Pods-keychaindemoTests";
+			productReference = 9B2CD6D5094FCC943A205F8BB26DE0EF /* Pods_keychaindemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C116BCB20818761D24FCB2A1ADC8C74E /* Pods-keychaindemo-keychaindemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C1A595C15C94B8FB6FE198F2821AC3 /* Build configuration list for PBXNativeTarget "Pods-keychaindemo-keychaindemoUITests" */;
+			buildPhases = (
+				CADD2A2BA81E66DF55015C82EE5369EB /* Headers */,
+				26942E1D50F34677528EB44DB3BD75CA /* Sources */,
+				5DF190C4AB37E1C0E4C902E3BB62CF94 /* Frameworks */,
+				FB830764E4E72A732525AE76E81791B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7825A737F24171F9AA9BCA207AD4CB /* PBXTargetDependency */,
+			);
+			name = "Pods-keychaindemo-keychaindemoUITests";
+			productName = "Pods-keychaindemo-keychaindemoUITests";
+			productReference = D71DF93734656ABDC42DE263200C7E11 /* Pods_keychaindemo_keychaindemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C26D1F56B79A699BC4DE26433A422F /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */;
+			buildPhases = (
+				E46D83F0CD00CB6C581A15FACBBDB57E /* Headers */,
+				330DE2BD20DFC08839359EADFE5BBCF0 /* Sources */,
+				D44BE32F0F2A099860CD3EA3E14F13E2 /* Frameworks */,
+				BBE4D27BCC51B5E2A3D3C5FFE924AA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftKeychainWrapper;
+			productName = SwiftKeychainWrapper;
+			productReference = 5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F026CAD1AB149263DD8ACE7649B3BA0B /* Pods-keychaindemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF354DEAF4FC408DC4EBAA8D1868A2A /* Build configuration list for PBXNativeTarget "Pods-keychaindemo" */;
+			buildPhases = (
+				F4C8019679CC50DCEAE1FA58C119B670 /* Headers */,
+				1BB30C3E7DE400F844AA243EFC53600A /* Sources */,
+				9067F86725296508BE7081DD7E52F4C7 /* Frameworks */,
+				AE6F08856F116150ACF753405FD63A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7274260585DEEEAA62C3C8D34ECB8D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-keychaindemo";
+			productName = "Pods-keychaindemo";
+			productReference = 582439EC17094CE981451C896AA67368 /* Pods_keychaindemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A0873F874693E7E539123660C67ADDF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F026CAD1AB149263DD8ACE7649B3BA0B /* Pods-keychaindemo */,
+				C116BCB20818761D24FCB2A1ADC8C74E /* Pods-keychaindemo-keychaindemoUITests */,
+				9D4ECACE9CC152BBDAA6F353A8EA1B00 /* Pods-keychaindemoTests */,
+				CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9026808DF928F341892BD1B788E58DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6F08856F116150ACF753405FD63A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE4D27BCC51B5E2A3D3C5FFE924AA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB830764E4E72A732525AE76E81791B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BB30C3E7DE400F844AA243EFC53600A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE8ABE43A33080B316A26848BE213 /* Pods-keychaindemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26942E1D50F34677528EB44DB3BD75CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCCD9269C880096FE41CC8BE90C7933 /* Pods-keychaindemo-keychaindemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE2BD20DFC08839359EADFE5BBCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853500B973255E0957451456FAAD6E31 /* KeychainItemAccessibility.swift in Sources */,
+				3A246CB408E326D4798A114169A4D9E3 /* KeychainWrapper.swift in Sources */,
+				1BB72D35C1614D5955F927774DCC7C44 /* SwiftKeychainWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A017EE6610499171740703C6F341F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A28A439506358832B5EFCF01AED6941 /* Pods-keychaindemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C7825A737F24171F9AA9BCA207AD4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
+			targetProxy = EC1CB13583F3A24612C604E0A87B0CFA /* PBXContainerItemProxy */;
+		};
+		4E2B7C6436BF11240F286D50DE387FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-keychaindemo";
+			target = F026CAD1AB149263DD8ACE7649B3BA0B /* Pods-keychaindemo */;
+			targetProxy = 3CDBE399631E1D59EFDEBC52B496519C /* PBXContainerItemProxy */;
+		};
+		C7274260585DEEEAA62C3C8D34ECB8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
+			targetProxy = 1C8CD7AC646C9C498D13D80E108D4402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D68731B1708A659462C629F01084692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD47908E8393ACC68C10483D7143C15C /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1563200193ADA0389A72A06ACA2BCC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D772B308AD290A0AA1FF20E48114CE12 /* Pods-keychaindemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemoTests/Pods-keychaindemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemoTests/Pods-keychaindemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E26718163B82B1EF466C74FB0FFE2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B6E025C7C23538590329F3E8E8A177 /* Pods-keychaindemo-keychaindemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemo-keychaindemoUITests/Pods-keychaindemo-keychaindemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemo-keychaindemoUITests/Pods-keychaindemo-keychaindemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43CE06E37A8B99DB615367984EBD4567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD47908E8393ACC68C10483D7143C15C /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		773AD5243F6F85DD57AEBD22911088F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FE7B4F62C22497DE25B46711451C22 /* Pods-keychaindemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemo/Pods-keychaindemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemo/Pods-keychaindemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5D8945D42DA694A3B27CD52FBE3B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C93CA3E29F711A6DBEF3C03849C05E0 /* Pods-keychaindemo-keychaindemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemo-keychaindemoUITests/Pods-keychaindemo-keychaindemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemo-keychaindemoUITests/Pods-keychaindemo-keychaindemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6516ADC3AC939CAEB9A84E60ADC8A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBB54325E7A54612E5AFD190BC3D936 /* Pods-keychaindemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemo/Pods-keychaindemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemo/Pods-keychaindemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA056372A6030307FC6E9701BA204AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39694D1A53DADFE6C52347C54C579C61 /* Pods-keychaindemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-keychaindemoTests/Pods-keychaindemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-keychaindemoTests/Pods-keychaindemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C1A595C15C94B8FB6FE198F2821AC3 /* Build configuration list for PBXNativeTarget "Pods-keychaindemo-keychaindemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E26718163B82B1EF466C74FB0FFE2BB /* Debug */,
+				C5D8945D42DA694A3B27CD52FBE3B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070CAD4C999C37660B01C2F28DAB3B89 /* Build configuration list for PBXNativeTarget "Pods-keychaindemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1563200193ADA0389A72A06ACA2BCC3C /* Debug */,
+				DA056372A6030307FC6E9701BA204AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF354DEAF4FC408DC4EBAA8D1868A2A /* Build configuration list for PBXNativeTarget "Pods-keychaindemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6516ADC3AC939CAEB9A84E60ADC8A82 /* Debug */,
+				773AD5243F6F85DD57AEBD22911088F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C26D1F56B79A699BC4DE26433A422F /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D68731B1708A659462C629F01084692 /* Debug */,
+				43CE06E37A8B99DB615367984EBD4567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
